@@ -13,7 +13,6 @@ html, body{
 
 .jumbotron {
 	text-align: center;
-	font-family: 'Abril Fatface', cursive;
 	color: navy;
 	margin-bottom: auto;
 	padding-bottom: 20px;
@@ -24,11 +23,21 @@ html, body{
 	opacity: .4;
 	background-color: #fff;
 	margin: 0 auto;
+	font-weight: bold;
 }
 
+#clockbox {
+	font-size: 20px;
+	font-weight: bold;
+	color: navy;
+}
 
 label {
 	color: black;
 	font-size: 14px;
 	margin-right: 10px;
+}
+
+.header {
+	color: navy;
 }

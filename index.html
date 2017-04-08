@@ -3,7 +3,7 @@
 <head>
    <meta charset="utf-8">
    <meta name="veiwport">
-   <title> Trains2Go Shedule </title>
+   <title> Trains2Go Schedule </title>
 <!--Firebase  -->
   <script src="https://www.gstatic.com/firebasejs/3.7.5/firebase.js"> </script>
 <!-- JQuery -->
@@ -20,44 +20,42 @@
 
 </head>
 <body>
+  
 
 <div class="container">
 
   <br>
 
-  <!-- Jumbotron -->
 <div class="jumbotron">
-    <h1 class="text-center">Train Schedules</h1>
+    <h1 class="text-center">Trains2Go Schedule</h1>
+    <br>
+    <div id="clockbox"></div>
 </div>
 
   <div class="row">
 
-    <!-- Train1 Panel-->
-    <div class="col-lg-12">
+    <div class="col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1">
       <div class="panel panel-info">
         <div class="panel-heading">
         <h3 class="panel-title">Current Train Schedule</h3>
         </div>
         <div class="panel-body">
         <table class="table">
-          <tr>
-            <th class=" col-sm-2"> Train Name</th>
-            <th class=" col-sm-2">Destination</th>
-            <th class=" col-sm-2">Frequency (Min)</th>
-            <th class=" col-sm-2"> Next Arrival</th>
-            <th class=" col-sm-2"s>Minutes Away</th>
-          </tr>
+        <tr>
+            <th class="header"> Train Name</th>
+            <th class="header">Destination</th>
+            <th class="header">Frequency (Min)</th>
+            <th class="header"> Next Arrival</th>
+            <th class="header"s>Minutes Away</th>
+        </tr>
         </table>  
         </div>
       </div>
     
 
-<!-- second panel content-->
 
   <div class="row">
-
-    <!-- Train2 Panel-->
-    <div class="col-lg-12">
+    <div class="col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1">
       <div class="panel panel-info">
         <div class="panel-heading">
         <h3 class="panel-title">Add Train</h3>
